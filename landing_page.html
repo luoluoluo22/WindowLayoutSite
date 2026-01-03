@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>智能窗口布局 - 像贴便利贴一样管理屏幕</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --primary: #38bdf8;
+            --text-main: #e2e8f0;
+            --text-sub: #94a3b8;
+            --accent-purple: #a855f7;
+            --accent-pink: #f472b6;
+            --accent-yellow: #fbbf24;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
+            color: var(--text-main);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* 导航栏 */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+            margin-bottom: 60px;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .nav-links a {
+            color: var(--text-sub);
+            text-decoration: none;
+            margin-left: 20px;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+
+        /* Hero 区域 */
+        .hero {
+            text-align: center;
+            margin-bottom: 80px;
+            animation: fadeIn 1s ease-out;
+        }
+
+        .hero h1 {
+            font-size: 56px;
+            margin: 0 0 20px 0;
+            background: linear-gradient(90deg, #fff, #bfdbfe);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero p {
+            font-size: 20px;
+            color: var(--text-sub);
+            max-width: 600px;
+            margin: 0 auto 40px auto;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(90deg, var(--primary), #0ea5e9);
+            color: #0f172a;
+            padding: 16px 40px;
+            border-radius: 50px;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+            box-shadow: 0 4px 20px rgba(56, 189, 248, 0.4);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(56, 189, 248, 0.5);
+        }
+
+        /* 为什么开发 (引用块) */
+        .story-block {
+            background: rgba(56, 189, 248, 0.08);
+            border-left: 4px solid var(--primary);
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 60px;
+        }
+
+        .story-title {
+            color: var(--primary);
+            font-weight: bold;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        /* 功能网格 */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 24px;
+            margin-bottom: 60px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            padding: 30px;
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .card-icon {
+            font-size: 32px;
+            margin-bottom: 20px;
+            display: block;
+        }
+
+        .card h3 {
+            margin: 0 0 10px 0;
+            color: #fff;
+        }
+
+        .card p {
+            margin: 0;
+            font-size: 14px;
+            color: var(--text-sub);
+        }
+
+        /* 演示示意图 (CSS绘制) */
+        .demo-box {
+            background: #0f172a;
+            border-radius: 12px;
+            height: 140px;
+            margin-top: 20px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* 演示1：自动排列 */
+        .win-sm {
+            width: 30px;
+            height: 20px;
+            border: 2px dashed #475569;
+            border-radius: 4px;
+            position: absolute;
+        }
+
+        .win-lg {
+            width: 100px;
+            height: 60px;
+            background: #1e293b;
+            border: 2px solid var(--primary);
+            border-radius: 6px;
+        }
+
+        /* 演示2：拖拽 */
+        .win-swap {
+            width: 60px;
+            height: 50px;
+            border: 2px solid var(--accent-yellow);
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--accent-yellow);
+            font-weight: bold;
+        }
+
+        /* 页脚 */
+        footer {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 40px;
+            padding-bottom: 60px;
+            text-align: center;
+            color: var(--text-sub);
+            font-size: 14px;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* 手机适配 */
+        @media (max-width: 600px) {
+            .hero h1 {
+                font-size: 36px;
+            }
+
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- 导航 -->
+        <nav>
+            <div class="logo">🪟 智能窗口布局</div>
+            <div class="nav-links">
+                <a href="#">更新日志</a>
+                <a href="#">关于作者</a>
+            </div>
+        </nav>
+
+        <!-- 主视觉 -->
+        <div class="hero">
+            <h1>像贴便利贴一样<br>管理你的屏幕空间</h1>
+            <p>一键智能排列 · 场景快照恢复 · 拖拽交换位置<br>专为 Windows 10/11 打造的终极窗口管理神器</p>
+            <a href="https://getquicker.net/Sharedaction?code=2a502b3e-b025-42ae-0c13-08de4a7531cf&fromMyShare=true"
+                target="_blank" class="cta-button">
+                🚀 安装到 Quicker
+            </a>
+            <p style="font-size: 12px; margin-top: 15px; opacity: 0.6;">需要 Quicker 1.40+ 版本</p>
+        </div>
+
+        <!-- 故事背景 -->
+        <div class="story-block">
+            <span class="story-title">💡 为什么开发这个工具？</span>
+            受够了每天手动拖拽对齐窗口的繁琐！我希望<strong>核心窗口（如编辑器）能像“钉子”一样雷打不动</strong>，而其他辅助窗口能自动乖乖填补空缺。<br>
+            市面上的分屏软件不够灵活，于是诞生了这个<strong>支持“可视化锁定”与“场景快照”</strong>的效率神器。
+        </div>
+
+        <!-- 核心功能 -->
+        <div class="grid">
+            <div class="card">
+                <span class="card-icon">🧠</span>
+                <h3>一键自动排列</h3>
+                <p>无需手动对齐，杂乱窗口一键归位。独特的“填坑算法”自动计算最佳布局，让强迫症极度舒适。</p>
+                <!-- 示意图 -->
+                <div class="demo-box" style="gap:10px;">
+                    <div class="win-lg" style="border-color: var(--primary);"></div>
+                    <div class="win-lg" style="border-color: var(--primary); opacity: 0.5;"></div>
+                    <div style="position:absolute; color:var(--primary); font-weight:bold;">↓</div>
+                </div>
+            </div>
+
+            <div class="card">
+                <span class="card-icon">↔️</span>
+                <h3>拖拽交换位置</h3>
+                <p>想换个位置？无需重新调整大小。直接拖拽窗口手柄到另一个窗口，位置瞬间互换。</p>
+                <!-- 示意图 -->
+                <div class="demo-box" style="gap:15px;">
+                    <div class="win-swap">A</div>
+                    <div style="font-size:20px;">↔️</div>
+                    <div class="win-swap" style="border-color:var(--accent-pink); color:var(--accent-pink);">B</div>
+                </div>
+            </div>
+
+            <div class="card">
+                <span class="card-icon">📸</span>
+                <h3>场景快照恢复 v2.0</h3>
+                <p>保存整套工作流（开发、写作、摸鱼）。不仅恢复位置，还能<strong>自动拉起程序</strong>、<strong>恢复浏览器网址</strong>。</p>
+                <!-- 示意图 -->
+                <div class="demo-box">
+                    <div
+                        style="width:120px; height:70px; border:2px solid var(--primary); border-radius:6px; background:#1e293b; position:relative; display:flex; justify-content:center; align-items:center;">
+                        <span style="font-size:12px; color:var(--primary);">✨ Restored</span>
+                        <div
+                            style="position:absolute; top:-10px; right:-10px; background:var(--primary); color:#000; padding:2px 8px; border-radius:10px; font-size:10px; font-weight:bold;">
+                            URL</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 页脚 -->
+        <footer>
+            <p>Made with ❤️ by Antigravity</p>
+            <p style="opacity: 0.5;">© 2026 智能窗口布局. All rights reserved.</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>

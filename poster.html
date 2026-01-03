@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1920, height=1080">
+    <title>灵动窗口布局 - 海报</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 1920px;
+            height: 1080px;
+            background: linear-gradient(135deg, #0f0f23 0%, #1a0a2e 50%, #0d1b2a 100%);
+            font-family: 'Noto Sans SC', 'Microsoft YaHei', sans-serif;
+            overflow: hidden;
+            position: relative;
+        }
+
+        /* 背景装饰 */
+        .bg-orb {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(80px);
+            opacity: 0.4;
+        }
+
+        .orb1 {
+            width: 400px;
+            height: 400px;
+            background: #6366f1;
+            top: -100px;
+            right: 200px;
+        }
+
+        .orb2 {
+            width: 300px;
+            height: 300px;
+            background: #8b5cf6;
+            bottom: -50px;
+            left: 100px;
+        }
+
+        .orb3 {
+            width: 250px;
+            height: 250px;
+            background: #06b6d4;
+            top: 300px;
+            right: -50px;
+        }
+
+        /* 网格背景 */
+        .grid-bg {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-image:
+                linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+            background-size: 60px 60px;
+        }
+
+        /* 主内容区 */
+        .content {
+            position: relative;
+            z-index: 10;
+            display: flex;
+            height: 100%;
+            padding: 80px 100px;
+        }
+
+        /* 左侧文字区 */
+        .text-area {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .title {
+            font-size: 96px;
+            font-weight: 900;
+            color: #fff;
+            text-shadow: 0 0 60px rgba(99, 102, 241, 0.5);
+            line-height: 1.2;
+            margin-bottom: 30px;
+        }
+
+        .subtitle {
+            font-size: 32px;
+            color: rgba(255, 255, 255, 0.7);
+            margin-bottom: 60px;
+            letter-spacing: 2px;
+        }
+
+        .features {
+            display: flex;
+            gap: 40px;
+        }
+
+        .feature {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 16px 28px;
+            border-radius: 50px;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+        }
+
+        .feature-icon {
+            font-size: 28px;
+        }
+
+        .feature-text {
+            font-size: 20px;
+            color: #fff;
+            font-weight: 500;
+        }
+
+        /* 右侧视觉区 */
+        .visual-area {
+            flex: 1.2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        .monitor {
+            width: 700px;
+            height: 480px;
+            background: linear-gradient(145deg, #1e1e2e, #2a2a3e);
+            border-radius: 16px;
+            padding: 20px;
+            box-shadow:
+                0 40px 80px rgba(0, 0, 0, 0.5),
+                0 0 0 2px rgba(255, 255, 255, 0.1),
+                inset 0 1px 0 rgba(255, 255, 255, 0.1);
+            position: relative;
+        }
+
+        .monitor::after {
+            content: '';
+            position: absolute;
+            bottom: -40px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 200px;
+            height: 30px;
+            background: linear-gradient(to bottom, #2a2a3e, #1e1e2e);
+            border-radius: 0 0 10px 10px;
+        }
+
+        .screen {
+            width: 100%;
+            height: 100%;
+            background: #0d0d15;
+            border-radius: 8px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 8px;
+            padding: 8px;
+        }
+
+        .window {
+            background: linear-gradient(145deg, #1a1a2e, #252540);
+            border-radius: 8px;
+            position: relative;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .window-header {
+            height: 28px;
+            background: rgba(0, 0, 0, 0.3);
+            display: flex;
+            align-items: center;
+            padding: 0 10px;
+            gap: 6px;
+        }
+
+        .dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+        }
+
+        .dot-red {
+            background: #ff5f56;
+        }
+
+        .dot-yellow {
+            background: #ffbd2e;
+        }
+
+        .dot-green {
+            background: #27ca40;
+        }
+
+        .lock-icon {
+            position: absolute;
+            top: 6px;
+            right: 8px;
+            font-size: 16px;
+            background: rgba(46, 204, 113, 0.9);
+            width: 24px;
+            height: 24px;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .window-content {
+            padding: 10px;
+            font-size: 10px;
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        .code-lines {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .code-line {
+            height: 8px;
+            border-radius: 4px;
+        }
+
+        .w1 {
+            width: 60%;
+            background: #6366f1;
+        }
+
+        .w2 {
+            width: 80%;
+            background: #8b5cf6;
+        }
+
+        .w3 {
+            width: 40%;
+            background: #06b6d4;
+        }
+
+        .w4 {
+            width: 70%;
+            background: #22c55e;
+        }
+
+        /* 底部版本号 */
+        .version {
+            position: absolute;
+            bottom: 40px;
+            right: 100px;
+            color: rgba(255, 255, 255, 0.4);
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg-orb orb1"></div>
+    <div class="bg-orb orb2"></div>
+    <div class="bg-orb orb3"></div>
+    <div class="grid-bg"></div>
+
+    <div class="content">
+        <div class="text-area">
+            <h1 class="title">智能窗口布局</h1>
+            <p class="subtitle">一键智能排列 · 场景快照恢复 · 拖拽交换位置</p>
+            <div class="features">
+                <div class="feature">
+                    <span class="feature-icon">🔒</span>
+                    <span class="feature-text">锁定记忆</span>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">📸</span>
+                    <span class="feature-text">场景快照</span>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">↔️</span>
+                    <span class="feature-text">拖拽交换</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="visual-area">
+            <div class="monitor">
+                <div class="screen">
+                    <div class="window">
+                        <div class="window-header">
+                            <span class="dot dot-red"></span>
+                            <span class="dot dot-yellow"></span>
+                            <span class="dot dot-green"></span>
+                        </div>
+                        <span class="lock-icon">🔒</span>
+                        <div class="window-content">
+                            <div class="code-lines">
+                                <div class="code-line w1"></div>
+                                <div class="code-line w2"></div>
+                                <div class="code-line w3"></div>
+                                <div class="code-line w4"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="window">
+                        <div class="window-header">
+                            <span class="dot dot-red"></span>
+                            <span class="dot dot-yellow"></span>
+                            <span class="dot dot-green"></span>
+                        </div>
+                        <span class="lock-icon">🔒</span>
+                        <div class="window-content">
+                            <div class="code-lines">
+                                <div class="code-line w2"></div>
+                                <div class="code-line w4"></div>
+                                <div class="code-line w1"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="window">
+                        <div class="window-header">
+                            <span class="dot dot-red"></span>
+                            <span class="dot dot-yellow"></span>
+                            <span class="dot dot-green"></span>
+                        </div>
+                        <span class="lock-icon">🔒</span>
+                        <div class="window-content">
+                            <div class="code-lines">
+                                <div class="code-line w3"></div>
+                                <div class="code-line w1"></div>
+                                <div class="code-line w2"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="window">
+                        <div class="window-header">
+                            <span class="dot dot-red"></span>
+                            <span class="dot dot-yellow"></span>
+                            <span class="dot dot-green"></span>
+                        </div>
+                        <span class="lock-icon">🔒</span>
+                        <div class="window-content">
+                            <div class="code-lines">
+                                <div class="code-line w4"></div>
+                                <div class="code-line w3"></div>
+                                <div class="code-line w2"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="version">v2.0 | Quicker 动作</div>
+</body>
+
+</html>

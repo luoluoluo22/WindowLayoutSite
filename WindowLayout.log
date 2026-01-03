@@ -1,0 +1,604 @@
+[19:31:29] [SaveScene] >>> 开始执行快照保存: 01-03 1931 布局
+[19:31:29] [SaveScene-Debug] 浏览器 URL 抓取: 抖音-记录美好生活 - 个人 - Microsoft​ Edge -> 失败
+[19:31:30] [SaveScene-Debug] 资源管理器路径抓取: 桌面 -> F:\桌面
+[19:31:30] [SaveScene] 场景文件已保存至磁盘: 5 个历史场景
+[19:31:30]   - 记录: Antigravity | T:"F:\桌面\开发\WindowLayout.log-开发#quicker [管理员]" | P:"C:\Users\Administrator\AppData\Local\Programs\Antigravity\Antigravity.exe" | Url:""
+[19:31:30]   - 记录: msedge | T:"抖音-记录美好生活 - 个人 - Microsoft​ Edge" | P:"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" | Url:""
+[19:31:30]   - 记录: Weixin | T:"微信" | P:"C:\Program Files\Tencent\Weixin\Weixin.exe" | Url:""
+[19:31:30]   - 记录: explorer | T:"桌面" | P:"C:\Windows\explorer.exe" | Url:"F:\桌面"
+[19:34:41] ==================================================
+[19:34:41] >>> 开发者模式已识别：日志模块启动
+[19:34:41] >>> 算法进化：响应式动态填坑算法 V4 (True Gap-Filler)
+[19:34:41] [Filter-Done] 窗口列表变动，识别到参与排版的独立窗口数量: 5
+[19:34:41]   - HWND:461336 | Proc:Antigravity | Title:"F:\桌面\开发\片段管理\quicker_equal_fill\EqualFill.cs-开发#quicker [管理员]"
+[19:34:41]   - HWND:460194 | Proc:AlgerMusicPlayer | Title:"AlgerMusic - 金玉良缘"
+[19:34:41]   - HWND:76350868 | Proc:msedge | Title:"抖音-记录美好生活 - 个人 - Microsoft​ Edge"
+[19:34:41]   - HWND:394366 | Proc:Weixin | Title:"微信"
+[19:34:41]   - HWND:591046 | Proc:explorer | Title:"桌面"
+[19:34:41] [Filter-Done] 识别到参与排版的独立窗口数量: 5
+[19:34:42] [Layout-V4] 锁定剔除完成，可用坑位: 1 | 待填入: 5
+[19:35:28] [Filter-Done] 窗口列表变动，识别到参与排版的独立窗口数量: 4
+[19:35:28]   - HWND:461336 | Proc:Antigravity | Title:"F:\桌面\开发\WindowLayoutManager.json-开发#quicker [管理员]"
+[19:35:28]   - HWND:76350868 | Proc:msedge | Title:"抖音-记录美好生活 - 个人 - Microsoft​ Edge"
+[19:35:28]   - HWND:394366 | Proc:Weixin | Title:"微信"
+[19:35:28]   - HWND:591046 | Proc:explorer | Title:"桌面"
+[19:35:28] [Layout-V4] 锁定剔除完成，可用坑位: 1 | 待填入: 4
+[19:35:29] [SaveScene] >>> 开始执行快照保存: 01-03 1935 布局
+[19:35:29] [SaveScene-Debug] 浏览器 URL 抓取: 抖音-记录美好生活 - 个人 - Microsoft​ Edge -> https://www.douyin.com/?recommend=1
+[19:35:29] [SaveScene-Debug] 资源管理器路径抓取: 桌面 -> F:\桌面
+[19:35:29] [SaveScene] 场景文件已保存至磁盘: 6 个历史场景
+[19:35:29]   - 记录: Antigravity | T:"F:\桌面\开发\WindowLayoutManager.json-开发#quicker [管理员]" | P:"C:\Users\Administrator\AppData\Local\Programs\Antigravity\Antigravity.exe" | Url:""
+[19:35:29]   - 记录: msedge | T:"抖音-记录美好生活 - 个人 - Microsoft​ Edge" | P:"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" | Url:"https://www.douyin.com/?recommend=1"
+[19:35:29]   - 记录: Weixin | T:"微信" | P:"C:\Program Files\Tencent\Weixin\Weixin.exe" | Url:""
+[19:35:29]   - 记录: explorer | T:"桌面" | P:"C:\Windows\explorer.exe" | Url:"F:\桌面"
+[19:35:51] [ApplyScene] >>> 开始恢复场景: 01-03 1935 布局 (包含记录: 4 个)
+[19:35:51] [Filter-Done] 窗口列表变动，识别到参与排版的独立窗口数量: 3
+[19:35:51]   - HWND:461336 | Proc:Antigravity | Title:"F:\桌面\开发\WindowLayout.log-开发#quicker [管理员]"
+[19:35:51]   - HWND:394366 | Proc:Weixin | Title:"微信"
+[19:35:51]   - HWND:591046 | Proc:explorer | Title:"桌面"
+[19:35:51] [ApplyScene] --- 当前布局实况 (恢复前) ---
+[19:35:51]   - Antigravity | Pos: 1280,700,1280x700 | Title: "F:\桌面\开发\WindowLayout.log-开发#quicker [管理员]"
+[19:35:51]   - Weixin | Pos: 0,700,1280x700 | Title: "微信"
+[19:35:51]   - explorer | Pos: 1280,0,1280x700 | Title: "桌面"
+[19:35:51] [ApplyScene] 当前系统范围内待匹配窗口总数: 3
+[19:35:51] [ApplyScene] [?] 窗口未找到，尝试自动化拉起: Antigravity | 路径: C:\Users\Administrator\AppData\Local\Programs\Antigravity\Antigravity.exe
+[19:35:51] [ApplyScene] [?] 窗口未找到，尝试自动化拉起: msedge | 路径: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[19:35:51] [ApplyScene] [√] 匹配成功: Weixin | "微信" -> 移动至 {X=0,Y=700,Width=1280,Height=700}
+[19:35:51] [ApplyScene] [√] 匹配成功: explorer | "桌面" -> 移动至 {X=1280,Y=0,Width=1280,Height=700}
+[19:35:51] [ApplyScene] <<< 恢复任务发送完毕，直接命中数: 2
+[19:35:52] [Filter-Done] 窗口列表变动，识别到参与排版的独立窗口数量: 4
+[19:35:52]   - HWND:8193050 | Proc:msedge | Title:"无标题 - 个人 - Microsoft​ Edge"
+[19:35:52]   - HWND:461336 | Proc:Antigravity | Title:"F:\桌面\开发\WindowLayout.log-开发#quicker [管理员]"
+[19:35:52]   - HWND:394366 | Proc:Weixin | Title:"微信"
+[19:35:52]   - HWND:591046 | Proc:explorer | Title:"桌面"
+[19:35:52] [ApplyScene-Async] [√] 延迟归位成功: msedge
+[19:35:52] [Filter-Done] 窗口列表变动，识别到参与排版的独立窗口数量: 5
+[19:35:52]   - HWND:525452 | Proc:Antigravity | Title:"Antigravity"
+[19:35:52]   - HWND:8193050 | Proc:msedge | Title:"无标题 - 个人 - Microsoft​ Edge"
+[19:35:52]   - HWND:461336 | Proc:Antigravity | Title:"F:\桌面\开发\WindowLayout.log-开发#quicker [管理员]"
+[19:35:52]   - HWND:394366 | Proc:Weixin | Title:"微信"
+[19:35:52]   - HWND:591046 | Proc:explorer | Title:"桌面"
+[19:35:53] [Filter-Done] 窗口列表变动，识别到参与排版的独立窗口数量: 5
+[19:35:53]   - HWND:525452 | Proc:Antigravity | Title:"#quicker"
+[19:35:53]   - HWND:8193050 | Proc:msedge | Title:"抖音-记录美好生活 - 个人 - Microsoft​ Edge"
+[19:35:53]   - HWND:461336 | Proc:Antigravity | Title:"F:\桌面\开发\WindowLayout.log-开发#quicker [管理员]"
+[19:35:53]   - HWND:394366 | Proc:Weixin | Title:"微信"
+[19:35:53]   - HWND:591046 | Proc:explorer | Title:"桌面"
+[19:35:56] [Filter-Done] 窗口列表变动，识别到参与排版的独立窗口数量: 5
+[19:35:56]   - HWND:525452 | Proc:Antigravity | Title:"#quicker [管理员]"
+[19:35:56]   - HWND:8193050 | Proc:msedge | Title:"抖音-记录美好生活 - 个人 - Microsoft​ Edge"
+[19:35:56]   - HWND:461336 | Proc:Antigravity | Title:"F:\桌面\开发\WindowLayout.log-开发#quicker [管理员]"
+[19:35:56]   - HWND:394366 | Proc:Weixin | Title:"微信"
+[19:35:56]   - HWND:591046 | Proc:explorer | Title:"桌面"
+[19:37:33] ==================================================
+[19:37:33] >>> 开发者模式已识别：日志模块启动
+[19:37:33] >>> 算法进化：响应式动态填坑算法 V4 (True Gap-Filler)
+[19:37:33] [Filter-Done] 窗口列表变动，识别到参与排版的独立窗口数量: 4
+[19:37:33]   - HWND:461336 | Proc:Antigravity | Title:"F:\桌面\开发\WindowLayout.log-开发#quicker [管理员]"
+[19:37:33]   - HWND:8193050 | Proc:msedge | Title:"抖音-记录美好生活 - 个人 - Microsoft​ Edge"
+[19:37:33]   - HWND:394366 | Proc:Weixin | Title:"微信"
+[19:37:33]   - HWND:591046 | Proc:explorer | Title:"桌面"
+[19:37:33] [Filter-Done] 识别到参与排版的独立窗口数量: 4
+[19:37:35] [ApplyScene] >>> 开始恢复场景: 01-03 1935 布局 (包含记录: 4 个)
+[19:37:35] [ApplyScene] --- 当前布局实况 (恢复前) ---
+[19:37:35]   - Antigravity | Pos: 0,0,1280x700 | Title: "F:\桌面\开发\WindowLayout.log-开发#quicker [管理员]"
+[19:37:35]   - msedge | Pos: 0,700,1280x700 | Title: "抖音-记录美好生活 - 个人 - Microsoft​ Edge"
+[19:37:35]   - Weixin | Pos: 1280,0,1280x700 | Title: "微信"
+[19:37:35]   - explorer | Pos: 1280,700,1280x700 | Title: "桌面"
+[19:37:35] [ApplyScene] 当前系统范围内待匹配窗口总数: 4
+[19:37:35] [ApplyScene] [?] 窗口未找到，尝试自动化拉起: Antigravity | 路径: C:\Users\Administrator\AppData\Local\Programs\Antigravity\Antigravity.exe
+[19:37:35] [ApplyScene] [√] 匹配成功: msedge | "抖音-记录美好生活 - 个人 - Microsoft​ Edge" -> 移动至 {X=0,Y=0,Width=1280,Height=700}
+[19:37:35] [ApplyScene] [√] 匹配成功: Weixin | "微信" -> 移动至 {X=0,Y=700,Width=1280,Height=700}
+[19:37:35] [ApplyScene] [√] 匹配成功: explorer | "桌面" -> 移动至 {X=1280,Y=0,Width=1280,Height=700}
+[19:37:35] [ApplyScene] <<< 恢复任务发送完毕，直接命中数: 3
+[19:37:36] [Filter-Done] 窗口列表变动，识别到参与排版的独立窗口数量: 5
+[19:37:36]   - HWND:2295978 | Proc:Antigravity | Title:"Antigravity"
+[19:37:36]   - HWND:461336 | Proc:Antigravity | Title:"F:\桌面\开发\WindowLayout.log-开发#quicker [管理员]"
+[19:37:36]   - HWND:8193050 | Proc:msedge | Title:"抖音-记录美好生活 - 个人 - Microsoft​ Edge"
+[19:37:36]   - HWND:394366 | Proc:Weixin | Title:"微信"
+[19:37:36]   - HWND:591046 | Proc:explorer | Title:"桌面"
+[19:37:37] [Filter-Done] 窗口列表变动，识别到参与排版的独立窗口数量: 5
+[19:37:37]   - HWND:2295978 | Proc:Antigravity | Title:"#quicker"
+[19:37:37]   - HWND:461336 | Proc:Antigravity | Title:"F:\桌面\开发\WindowLayout.log-开发#quicker [管理员]"
+[19:37:37]   - HWND:8193050 | Proc:msedge | Title:"抖音-记录美好生活 - 个人 - Microsoft​ Edge"
+[19:37:37]   - HWND:394366 | Proc:Weixin | Title:"微信"
+[19:37:37]   - HWND:591046 | Proc:explorer | Title:"桌面"
+[19:37:39] [Filter-Done] 窗口列表变动，识别到参与排版的独立窗口数量: 4
+[19:37:39]   - HWND:461336 | Proc:Antigravity | Title:"F:\桌面\开发\WindowLayout.log-开发#quicker [管理员]"
+[19:37:39]   - HWND:8193050 | Proc:msedge | Title:"抖音-记录美好生活 - 个人 - Microsoft​ Edge"
+[19:37:39]   - HWND:394366 | Proc:Weixin | Title:"微信"
+[19:37:39]   - HWND:591046 | Proc:explorer | Title:"桌面"
+[19:37:41] [Filter-Done] 窗口列表变动，识别到参与排版的独立窗口数量: 4
+[19:37:41]   - HWND:394366 | Proc:Weixin | Title:"微信"
+[19:37:41]   - HWND:461336 | Proc:Antigravity | Title:"F:\桌面\开发\WindowLayout.log-开发#quicker [管理员]"
+[19:37:41]   - HWND:8193050 | Proc:msedge | Title:"抖音-记录美好生活 - 个人 - Microsoft​ Edge"
+[19:37:41]   - HWND:591046 | Proc:explorer | Title:"桌面"
+[19:37:43] [Filter-Done] 窗口列表变动，识别到参与排版的独立窗口数量: 4
+[19:37:43]   - HWND:461336 | Proc:Antigravity | Title:"F:\桌面\开发\WindowLayout.log-开发#quicker [管理员]"
+[19:37:43]   - HWND:394366 | Proc:Weixin | Title:"微信"
+[19:37:43]   - HWND:8193050 | Proc:msedge | Title:"抖音-记录美好生活 - 个人 - Microsoft​ Edge"
+[19:37:43]   - HWND:591046 | Proc:explorer | Title:"桌面"
+[19:38:50] [ApplyScene] >>> 开始恢复场景: 01-03 1935 布局 (包含记录: 4 个)
+[19:38:50] [Filter-Done] 窗口列表变动，识别到参与排版的独立窗口数量: 4
+[19:38:50]   - HWND:461336 | Proc:Antigravity | Title:"F:\桌面\开发\WindowLayoutManager.json-开发#quicker [管理员]"
+[19:38:50]   - HWND:394366 | Proc:Weixin | Title:"微信"
+[19:38:50]   - HWND:8193050 | Proc:msedge | Title:"抖音-记录美好生活 - 个人 - Microsoft​ Edge"
+[19:38:50]   - HWND:591046 | Proc:explorer | Title:"桌面"
+[19:38:50] [ApplyScene] --- 当前布局实况 (恢复前) ---
+[19:38:50]   - Antigravity | Pos: 1284,705,1280x700 | Title: "F:\桌面\开发\WindowLayoutManager.json-开发#quicker [管理员]"
+[19:38:50]   - Weixin | Pos: 0,700,1280x700 | Title: "微信"
+[19:38:50]   - msedge | Pos: 0,0,1280x700 | Title: "抖音-记录美好生活 - 个人 - Microsoft​ Edge"
+[19:38:50]   - explorer | Pos: 1280,0,1280x700 | Title: "桌面"
+[19:38:50] [ApplyScene] 当前系统范围内待匹配窗口总数: 4
+[19:38:50] [ApplyScene] [√] 匹配成功: Antigravity | "F:\桌面\开发\WindowLayoutManager.json-开发#quicker [管理员]" -> 移动至 {X=1280,Y=700,Width=1280,Height=700}
+[19:38:50] [ApplyScene] [√] 匹配成功: msedge | "抖音-记录美好生活 - 个人 - Microsoft​ Edge" -> 移动至 {X=0,Y=0,Width=1280,Height=700}
+[19:38:50] [ApplyScene] [√] 匹配成功: Weixin | "微信" -> 移动至 {X=0,Y=700,Width=1280,Height=700}
+[19:38:50] [ApplyScene] [√] 匹配成功: explorer | "桌面" -> 移动至 {X=1280,Y=0,Width=1280,Height=700}
+[19:38:50] [ApplyScene] <<< 恢复任务发送完毕，直接命中数: 4
+[19:38:57] [ApplyScene] >>> 开始恢复场景: 01-03 1935 布局 (包含记录: 4 个)
+[19:38:57] [ApplyScene] --- 当前布局实况 (恢复前) ---
+[19:38:57]   - Antigravity | Pos: 1165,566,1280x700 | Title: "F:\桌面\开发\WindowLayoutManager.json-开发#quicker [管理员]"
+[19:38:57]   - Weixin | Pos: 0,700,1280x700 | Title: "微信"
+[19:38:57]   - msedge | Pos: 0,0,1280x700 | Title: "抖音-记录美好生活 - 个人 - Microsoft​ Edge"
+[19:38:57]   - explorer | Pos: 1280,0,1280x700 | Title: "桌面"
+[19:38:57] [ApplyScene] 当前系统范围内待匹配窗口总数: 4
+[19:38:57] [ApplyScene] [√] 匹配成功: Antigravity | "F:\桌面\开发\WindowLayoutManager.json-开发#quicker [管理员]" -> 移动至 {X=1280,Y=700,Width=1280,Height=700}
+[19:38:57] [ApplyScene] [√] 匹配成功: msedge | "抖音-记录美好生活 - 个人 - Microsoft​ Edge" -> 移动至 {X=0,Y=0,Width=1280,Height=700}
+[19:38:57] [ApplyScene] [√] 匹配成功: Weixin | "微信" -> 移动至 {X=0,Y=700,Width=1280,Height=700}
+[19:38:57] [ApplyScene] [√] 匹配成功: explorer | "桌面" -> 移动至 {X=1280,Y=0,Width=1280,Height=700}
+[19:38:57] [ApplyScene] <<< 恢复任务发送完毕，直接命中数: 4
+[19:39:38] ==================================================
+[19:39:38] >>> 开发者模式已识别：日志模块启动
+[19:39:38] >>> 算法进化：响应式动态填坑算法 V4 (True Gap-Filler)
+[19:39:38] [Filter-Done] 窗口列表变动，识别到参与排版的独立窗口数量: 3
+[19:39:38]   - HWND:394366 | Proc:Weixin | Title:"微信"
+[19:39:38]   - HWND:461336 | Proc:Antigravity | Title:"F:\桌面\开发\WindowLayoutManager.json-开发#quicker [管理员]"
+[19:39:38]   - HWND:8193050 | Proc:msedge | Title:"抖音-记录美好生活 - 个人 - Microsoft​ Edge"
+[19:39:38] [Filter-Done] 识别到参与排版的独立窗口数量: 3
+[19:39:39] [Layout-V4] 锁定剔除完成，可用坑位: 1 | 待填入: 3
+[19:39:46] [Filter-Done] 窗口列表变动，识别到参与排版的独立窗口数量: 4
+[19:39:46]   - HWND:657044 | Proc:explorer | Title:"桌面"
+[19:39:46]   - HWND:394366 | Proc:Weixin | Title:"微信"
+[19:39:46]   - HWND:461336 | Proc:Antigravity | Title:"F:\桌面\开发\WindowLayoutManager.json-开发#quicker [管理员]"
+[19:39:46]   - HWND:8193050 | Proc:msedge | Title:"抖音-记录美好生活 - 个人 - Microsoft​ Edge"
+[19:39:46] [Layout-V4] 锁定剔除完成，可用坑位: 1 | 待填入: 4
+[19:40:16] ==================================================
+[19:40:16] >>> 开发者模式已识别：日志模块启动
+[19:40:16] >>> 算法进化：响应式动态填坑算法 V4 (True Gap-Filler)
+[19:40:16] [Filter-Done] 窗口列表变动，识别到参与排版的独立窗口数量: 4
+[19:40:16]   - HWND:461336 | Proc:Antigravity | Title:"F:\桌面\开发\WindowLayoutManager.json-开发#quicker [管理员]"
+[19:40:16]   - HWND:657044 | Proc:explorer | Title:"桌面"
+[19:40:16]   - HWND:394366 | Proc:Weixin | Title:"微信"
+[19:40:16]   - HWND:8193050 | Proc:msedge | Title:"抖音-记录美好生活 - 个人 - Microsoft​ Edge"
+[19:40:16] [Filter-Done] 识别到参与排版的独立窗口数量: 4
+[19:40:16] [Layout-V4] 锁定剔除完成，可用坑位: 1 | 待填入: 4
+[19:40:20] [SaveScene] >>> 开始执行快照保存: 01-03 1940 布局
+[19:40:20] [SaveScene-Debug] 资源管理器路径抓取: 桌面 -> F:\桌面
+[19:40:20] [SaveScene-Debug] 浏览器 URL 抓取: 抖音-记录美好生活 - 个人 - Microsoft​ Edge -> https://www.douyin.com/?recommend=1
+[19:40:20] [SaveScene] 场景文件已保存至磁盘: 1 个历史场景
+[19:40:20]   - 记录: Antigravity | T:"F:\桌面\开发\WindowLayoutManager.json-开发#quicker [管理员]" | P:"C:\Users\Administrator\AppData\Local\Programs\Antigravity\Antigravity.exe" | Url:""
+[19:40:20]   - 记录: explorer | T:"桌面" | P:"C:\Windows\Explorer.EXE" | Url:"F:\桌面"
+[19:40:20]   - 记录: Weixin | T:"微信" | P:"C:\Program Files\Tencent\Weixin\Weixin.exe" | Url:""
+[19:40:20]   - 记录: msedge | T:"抖音-记录美好生活 - 个人 - Microsoft​ Edge" | P:"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" | Url:"https://www.douyin.com/?recommend=1"
+[19:40:30] [ApplyScene] >>> 开始恢复场景: 01-03 1940 布局 (包含记录: 4 个)
+[19:40:30] [Filter-Done] 窗口列表变动，识别到参与排版的独立窗口数量: 3
+[19:40:30]   - HWND:461336 | Proc:Antigravity | Title:"F:\桌面\开发\WindowLayoutManager.json-开发#quicker [管理员]"
+[19:40:30]   - HWND:394366 | Proc:Weixin | Title:"微信"
+[19:40:30]   - HWND:8193050 | Proc:msedge | Title:"抖音-记录美好生活 - 个人 - Microsoft​ Edge"
+[19:40:30] [ApplyScene] --- 当前布局实况 (恢复前) ---
+[19:40:30]   - Antigravity | Pos: 0,0,1280x700 | Title: "F:\桌面\开发\WindowLayoutManager.json-开发#quicker [管理员]"
+[19:40:30]   - Weixin | Pos: 1280,0,1280x700 | Title: "微信"
+[19:40:30]   - msedge | Pos: 1280,700,1280x700 | Title: "抖音-记录美好生活 - 个人 - Microsoft​ Edge"
+[19:40:30] [ApplyScene] 当前系统范围内待匹配窗口总数: 3
+[19:40:30] [ApplyScene] [√] 匹配成功: Antigravity | "F:\桌面\开发\WindowLayoutManager.json-开发#quicker [管理员]" -> 移动至 {X=0,Y=0,Width=1280,Height=700}
+[19:40:30] [ApplyScene] [?] 窗口未找到，尝试自动化拉起: explorer | 路径: C:\Windows\Explorer.EXE
+[19:40:30] [ApplyScene] [√] 匹配成功: Weixin | "微信" -> 移动至 {X=1280,Y=0,Width=1280,Height=700}
+[19:40:30] [ApplyScene] [√] 匹配成功: msedge | "抖音-记录美好生活 - 个人 - Microsoft​ Edge" -> 移动至 {X=1280,Y=700,Width=1280,Height=700}
+[19:40:30] [ApplyScene] <<< 恢复任务发送完毕，直接命中数: 3
+[19:40:31] [Filter-Done] 窗口列表变动，识别到参与排版的独立窗口数量: 4
+[19:40:31]   - HWND:722580 | Proc:explorer | Title:"桌面"
+[19:40:31]   - HWND:461336 | Proc:Antigravity | Title:"F:\桌面\开发\WindowLayoutManager.json-开发#quicker [管理员]"
+[19:40:31]   - HWND:394366 | Proc:Weixin | Title:"微信"
+[19:40:31]   - HWND:8193050 | Proc:msedge | Title:"抖音-记录美好生活 - 个人 - Microsoft​ Edge"
+[19:40:31] [ApplyScene-Async] [√] 延迟归位成功: explorer
+[19:41:01] ==================================================
+[19:41:01] >>> 开发者模式已识别：日志模块启动
+[19:41:01] >>> 算法进化：响应式动态填坑算法 V4 (True Gap-Filler)
+[19:41:01] [Filter-Done] 窗口列表变动，识别到参与排版的独立窗口数量: 4
+[19:41:01]   - HWND:461336 | Proc:Antigravity | Title:"F:\桌面\开发\WindowLayoutManager.json-开发#quicker [管理员]"
+[19:41:01]   - HWND:722580 | Proc:explorer | Title:"桌面"
+[19:41:01]   - HWND:394366 | Proc:Weixin | Title:"微信"
+[19:41:01]   - HWND:8193050 | Proc:msedge | Title:"抖音-记录美好生活 - 个人 - Microsoft​ Edge"
+[19:41:01] [Filter-Done] 识别到参与排版的独立窗口数量: 4
+[19:41:04] [SaveScene] >>> 开始执行快照保存: 01-03 1941 布局
+[19:41:04] [SaveScene-Debug] 资源管理器路径抓取: 桌面 -> F:\桌面
+[19:41:04] [SaveScene-Debug] 浏览器 URL 抓取: 抖音-记录美好生活 - 个人 - Microsoft​ Edge -> https://www.douyin.com/?recommend=1
+[19:41:05] [SaveScene] 场景文件已保存至磁盘: 1 个历史场景
+[19:41:05]   - 记录: Antigravity | T:"F:\桌面\开发\WindowLayoutManager.json-开发#quicker [管理员]" | P:"C:\Users\Administrator\AppData\Local\Programs\Antigravity\Antigravity.exe" | Url:""
+[19:41:05]   - 记录: explorer | T:"桌面" | P:"C:\Windows\explorer.exe" | Url:"F:\桌面"
+[19:41:05]   - 记录: Weixin | T:"微信" | P:"C:\Program Files\Tencent\Weixin\Weixin.exe" | Url:""
+[19:41:05]   - 记录: msedge | T:"抖音-记录美好生活 - 个人 - Microsoft​ Edge" | P:"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" | Url:"https://www.douyin.com/?recommend=1"
+[19:41:15] [SaveScene] >>> 开始执行快照保存: 01-03 1941 布局
+[19:41:15] [SaveScene-Debug] 资源管理器路径抓取: 桌面 -> F:\桌面
+[19:41:15] [SaveScene-Debug] 浏览器 URL 抓取: 抖音-记录美好生活 - 个人 - Microsoft​ Edge -> https://www.douyin.com/?recommend=1
+[19:41:15] [SaveScene] 场景文件已保存至磁盘: 1 个历史场景
+[19:41:15]   - 记录: Antigravity | T:"F:\桌面\开发\WindowLayoutManager.json-开发#quicker [管理员]" | P:"C:\Users\Administrator\AppData\Local\Programs\Antigravity\Antigravity.exe" | Url:""
+[19:41:15]   - 记录: explorer | T:"桌面" | P:"C:\Windows\explorer.exe" | Url:"F:\桌面"
+[19:41:15]   - 记录: Weixin | T:"微信" | P:"C:\Program Files\Tencent\Weixin\Weixin.exe" | Url:""
+[19:41:15]   - 记录: msedge | T:"抖音-记录美好生活 - 个人 - Microsoft​ Edge" | P:"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" | Url:"https://www.douyin.com/?recommend=1"
+[19:41:20] [SaveScene] >>> 开始执行快照保存: 01-03 1941 布局
+[19:41:20] [SaveScene-Debug] 资源管理器路径抓取: 桌面 -> F:\桌面
+[19:41:20] [SaveScene-Debug] 浏览器 URL 抓取: 抖音-记录美好生活 - 个人 - Microsoft​ Edge -> https://www.douyin.com/?recommend=1
+[19:41:20] [SaveScene] 场景文件已保存至磁盘: 1 个历史场景
+[19:41:20]   - 记录: Antigravity | T:"F:\桌面\开发\WindowLayoutManager.json-开发#quicker [管理员]" | P:"C:\Users\Administrator\AppData\Local\Programs\Antigravity\Antigravity.exe" | Url:""
+[19:41:20]   - 记录: explorer | T:"桌面" | P:"C:\Windows\explorer.exe" | Url:"F:\桌面"
+[19:41:20]   - 记录: Weixin | T:"微信" | P:"C:\Program Files\Tencent\Weixin\Weixin.exe" | Url:""
+[19:41:20]   - 记录: msedge | T:"抖音-记录美好生活 - 个人 - Microsoft​ Edge" | P:"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" | Url:"https://www.douyin.com/?recommend=1"
+[19:41:28] [SaveScene] >>> 开始执行快照保存: 01-03 1941 布局
+[19:41:28] [SaveScene-Debug] 资源管理器路径抓取: 桌面 -> F:\桌面
+[19:41:28] [SaveScene-Debug] 浏览器 URL 抓取: 抖音-记录美好生活 - 个人 - Microsoft​ Edge -> https://www.douyin.com/?recommend=1
+[19:41:28] [SaveScene] 场景文件已保存至磁盘: 1 个历史场景
+[19:41:28]   - 记录: Antigravity | T:"F:\桌面\开发\WindowLayoutManager.json-开发#quicker [管理员]" | P:"C:\Users\Administrator\AppData\Local\Programs\Antigravity\Antigravity.exe" | Url:""
+[19:41:28]   - 记录: explorer | T:"桌面" | P:"C:\Windows\explorer.exe" | Url:"F:\桌面"
+[19:41:28]   - 记录: Weixin | T:"微信" | P:"C:\Program Files\Tencent\Weixin\Weixin.exe" | Url:""
+[19:41:28]   - 记录: msedge | T:"抖音-记录美好生活 - 个人 - Microsoft​ Edge" | P:"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" | Url:"https://www.douyin.com/?recommend=1"
+[19:41:32] [ApplyScene] >>> 开始恢复场景: 01-03 1941 布局 (包含记录: 4 个)
+[19:41:32] [Filter-Done] 窗口列表变动，识别到参与排版的独立窗口数量: 4
+[19:41:32]   - HWND:722580 | Proc:explorer | Title:"桌面"
+[19:41:32]   - HWND:461336 | Proc:Antigravity | Title:"F:\桌面\开发\WindowLayoutManager.json-开发#quicker [管理员]"
+[19:41:32]   - HWND:394366 | Proc:Weixin | Title:"微信"
+[19:41:32]   - HWND:8193050 | Proc:msedge | Title:"抖音-记录美好生活 - 个人 - Microsoft​ Edge"
+[19:41:32] [ApplyScene] --- 当前布局实况 (恢复前) ---
+[19:41:32]   - explorer | Pos: 297,731,1280x700 | Title: "桌面"
+[19:41:32]   - Antigravity | Pos: 0,0,1280x700 | Title: "F:\桌面\开发\WindowLayoutManager.json-开发#quicker [管理员]"
+[19:41:32]   - Weixin | Pos: 1280,0,1280x700 | Title: "微信"
+[19:41:32]   - msedge | Pos: 1280,700,1280x700 | Title: "抖音-记录美好生活 - 个人 - Microsoft​ Edge"
+[19:41:32] [ApplyScene] 当前系统范围内待匹配窗口总数: 4
+[19:41:32] [ApplyScene] [√] 匹配成功: Antigravity | "F:\桌面\开发\WindowLayoutManager.json-开发#quicker [管理员]" -> 移动至 {X=0,Y=0,Width=1280,Height=700}
+[19:41:32] [ApplyScene] [√] 匹配成功: explorer | "桌面" -> 移动至 {X=297,Y=731,Width=1280,Height=700}
+[19:41:32] [ApplyScene] [√] 匹配成功: Weixin | "微信" -> 移动至 {X=1280,Y=0,Width=1280,Height=700}
+[19:41:32] [ApplyScene] [√] 匹配成功: msedge | "抖音-记录美好生活 - 个人 - Microsoft​ Edge" -> 移动至 {X=1280,Y=700,Width=1280,Height=700}
+[19:41:32] [ApplyScene] <<< 恢复任务发送完毕，直接命中数: 4
+[19:41:35] [ApplyScene] >>> 开始恢复场景: 01-03 1941 布局 (包含记录: 4 个)
+[19:41:35] [ApplyScene] --- 当前布局实况 (恢复前) ---
+[19:41:35]   - explorer | Pos: -57,691,1280x700 | Title: "桌面"
+[19:41:35]   - Antigravity | Pos: 0,0,1280x700 | Title: "F:\桌面\开发\WindowLayoutManager.json-开发#quicker [管理员]"
+[19:41:35]   - Weixin | Pos: 1280,0,1280x700 | Title: "微信"
+[19:41:35]   - msedge | Pos: 1280,700,1280x700 | Title: "抖音-记录美好生活 - 个人 - Microsoft​ Edge"
+[19:41:35] [ApplyScene] 当前系统范围内待匹配窗口总数: 4
+[19:41:35] [ApplyScene] [√] 匹配成功: Antigravity | "F:\桌面\开发\WindowLayoutManager.json-开发#quicker [管理员]" -> 移动至 {X=0,Y=0,Width=1280,Height=700}
+[19:41:35] [ApplyScene] [√] 匹配成功: explorer | "桌面" -> 移动至 {X=297,Y=731,Width=1280,Height=700}
+[19:41:35] [ApplyScene] [√] 匹配成功: Weixin | "微信" -> 移动至 {X=1280,Y=0,Width=1280,Height=700}
+[19:41:36] [ApplyScene] [√] 匹配成功: msedge | "抖音-记录美好生活 - 个人 - Microsoft​ Edge" -> 移动至 {X=1280,Y=700,Width=1280,Height=700}
+[19:41:36] [ApplyScene] <<< 恢复任务发送完毕，直接命中数: 4
+[19:42:07] [SaveScene] >>> 开始执行快照保存: 01-03 1942 布局
+[19:42:07] [SaveScene-Debug] 资源管理器路径抓取: 桌面 -> F:\桌面
+[19:42:07] [SaveScene-Debug] 浏览器 URL 抓取: 抖音-记录美好生活 - 个人 - Microsoft​ Edge -> https://www.douyin.com/?recommend=1
+[19:42:07] [SaveScene] 场景文件已保存至磁盘: 2 个历史场景
+[19:42:07]   - 记录: Antigravity | T:"F:\桌面\开发\WindowLayout.log-开发#quicker [管理员]" | P:"C:\Users\Administrator\AppData\Local\Programs\Antigravity\Antigravity.exe" | Url:""
+[19:42:07]   - 记录: explorer | T:"桌面" | P:"C:\Windows\explorer.exe" | Url:"F:\桌面"
+[19:42:07]   - 记录: Weixin | T:"微信" | P:"C:\Program Files\Tencent\Weixin\Weixin.exe" | Url:""
+[19:42:07]   - 记录: msedge | T:"抖音-记录美好生活 - 个人 - Microsoft​ Edge" | P:"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" | Url:"https://www.douyin.com/?recommend=1"
+[19:42:18] [SaveScene] >>> 开始执行快照保存: 01-03 1942 布局
+[19:42:18] [SaveScene-Debug] 资源管理器路径抓取: 桌面 -> F:\桌面
+[19:42:18] [SaveScene-Debug] 浏览器 URL 抓取: 抖音-记录美好生活 - 个人 - Microsoft​ Edge -> https://www.douyin.com/?recommend=1
+[19:42:18] [SaveScene] 场景文件已保存至磁盘: 2 个历史场景
+[19:42:18]   - 记录: Antigravity | T:"F:\桌面\开发\WindowLayout.log-开发#quicker [管理员]" | P:"C:\Users\Administrator\AppData\Local\Programs\Antigravity\Antigravity.exe" | Url:""
+[19:42:18]   - 记录: explorer | T:"桌面" | P:"C:\Windows\explorer.exe" | Url:"F:\桌面"
+[19:42:18]   - 记录: Weixin | T:"微信" | P:"C:\Program Files\Tencent\Weixin\Weixin.exe" | Url:""
+[19:42:18]   - 记录: msedge | T:"抖音-记录美好生活 - 个人 - Microsoft​ Edge" | P:"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" | Url:"https://www.douyin.com/?recommend=1"
+[19:44:10] ==================================================
+[19:44:10] >>> 开发者模式已识别：日志模块启动
+[19:44:10] >>> 算法进化：响应式动态填坑算法 V4 (True Gap-Filler)
+[19:44:10] [Filter-Done] 窗口列表变动，识别到参与排版的独立窗口数量: 4
+[19:44:10]   - HWND:461336 | Proc:Antigravity | Title:"F:\桌面\开发\WindowLayout.log-开发#quicker [管理员]"
+[19:44:10]   - HWND:722580 | Proc:explorer | Title:"桌面"
+[19:44:10]   - HWND:394366 | Proc:Weixin | Title:"微信"
+[19:44:10]   - HWND:8193050 | Proc:msedge | Title:"抖音-记录美好生活 - 个人 - Microsoft​ Edge"
+[19:44:10] [Filter-Done] 识别到参与排版的独立窗口数量: 4
+[19:44:10] [Layout-V4] 锁定剔除完成，可用坑位: 1 | 待填入: 4
+[19:44:14] ==================================================
+[19:44:14] >>> 开发者模式已识别：日志模块启动
+[19:44:14] >>> 算法进化：响应式动态填坑算法 V4 (True Gap-Filler)
+[19:44:14] [Filter-Done] 识别到参与排版的独立窗口数量: 4
+[19:44:16] ==================================================
+[19:44:16] >>> 开发者模式已识别：日志模块启动
+[19:44:16] >>> 算法进化：响应式动态填坑算法 V4 (True Gap-Filler)
+[19:44:16] >>> 触发已有实例热刷新
+[19:44:17] ==================================================
+[19:44:17] >>> 开发者模式已识别：日志模块启动
+[19:44:17] >>> 算法进化：响应式动态填坑算法 V4 (True Gap-Filler)
+[19:44:17] >>> 触发已有实例热刷新
+[19:44:19] ==================================================
+[19:44:19] >>> 开发者模式已识别：日志模块启动
+[19:44:19] >>> 算法进化：响应式动态填坑算法 V4 (True Gap-Filler)
+[19:44:19] >>> 触发已有实例热刷新
+[19:44:24] [SaveScene] >>> 开始执行快照保存: 01-03 194424 布局
+[19:44:24] [SaveScene-Debug] 资源管理器路径抓取: 桌面 -> F:\桌面
+[19:44:24] [SaveScene-Debug] 浏览器 URL 抓取: 抖音-记录美好生活 - 个人 - Microsoft​ Edge -> https://www.douyin.com/?recommend=1
+[19:44:24] [SaveScene] 场景文件已保存至磁盘: 3 个历史场景
+[19:44:24]   - 记录: Antigravity | T:"F:\桌面\开发\WindowLayout.log-开发#quicker [管理员]" | P:"C:\Users\Administrator\AppData\Local\Programs\Antigravity\Antigravity.exe" | Url:""
+[19:44:24]   - 记录: explorer | T:"桌面" | P:"C:\Windows\explorer.exe" | Url:"F:\桌面"
+[19:44:24]   - 记录: Weixin | T:"微信" | P:"C:\Program Files\Tencent\Weixin\Weixin.exe" | Url:""
+[19:44:24]   - 记录: msedge | T:"抖音-记录美好生活 - 个人 - Microsoft​ Edge" | P:"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" | Url:"https://www.douyin.com/?recommend=1"
+[19:44:25] [SaveScene] >>> 开始执行快照保存: 01-03 194425 布局
+[19:44:25] [SaveScene-Debug] 资源管理器路径抓取: 桌面 -> F:\桌面
+[19:44:25] [SaveScene-Debug] 浏览器 URL 抓取: 抖音-记录美好生活 - 个人 - Microsoft​ Edge -> https://www.douyin.com/?recommend=1
+[19:44:25] [SaveScene] 场景文件已保存至磁盘: 4 个历史场景
+[19:44:25]   - 记录: Antigravity | T:"F:\桌面\开发\WindowLayout.log-开发#quicker [管理员]" | P:"C:\Users\Administrator\AppData\Local\Programs\Antigravity\Antigravity.exe" | Url:""
+[19:44:25]   - 记录: explorer | T:"桌面" | P:"C:\Windows\explorer.exe" | Url:"F:\桌面"
+[19:44:25]   - 记录: Weixin | T:"微信" | P:"C:\Program Files\Tencent\Weixin\Weixin.exe" | Url:""
+[19:44:25]   - 记录: msedge | T:"抖音-记录美好生活 - 个人 - Microsoft​ Edge" | P:"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" | Url:"https://www.douyin.com/?recommend=1"
+[19:45:06] ==================================================
+[19:45:06] >>> 开发者模式已识别：日志模块启动
+[19:45:06] >>> 算法进化：响应式动态填坑算法 V4 (True Gap-Filler)
+[19:45:06] [Filter-Done] 窗口列表变动，识别到参与排版的独立窗口数量: 3
+[19:45:06]   - HWND:461336 | Proc:Antigravity | Title:"F:\桌面\开发\WindowLayout.log-开发#quicker [管理员]"
+[19:45:06]   - HWND:722580 | Proc:explorer | Title:"桌面"
+[19:45:06]   - HWND:8193050 | Proc:msedge | Title:"抖音-记录美好生活 - 个人 - Microsoft​ Edge"
+[19:45:06] [Filter-Done] 识别到参与排版的独立窗口数量: 3
+[19:45:06] [Layout-V4] 锁定剔除完成，可用坑位: 1 | 待填入: 3
+[19:45:08] [ApplyScene] >>> 开始恢复场景: 01-03 194425 布局 (包含记录: 4 个)
+[19:45:08] [ApplyScene] --- 当前布局实况 (恢复前) ---
+[19:45:08]   - Antigravity | Pos: 1280,0,1280x1400 | Title: "F:\桌面\开发\WindowLayout.log-开发#quicker [管理员]"
+[19:45:08]   - explorer | Pos: 0,0,1280x700 | Title: "桌面"
+[19:45:08]   - msedge | Pos: 0,700,1280x700 | Title: "抖音-记录美好生活 - 个人 - Microsoft​ Edge"
+[19:45:08] [ApplyScene] 当前系统范围内待匹配窗口总数: 3
+[19:45:08] [ApplyScene] [√] 匹配成功: Antigravity | "F:\桌面\开发\WindowLayout.log-开发#quicker [管理员]" -> 移动至 {X=0,Y=700,Width=1280,Height=700}
+[19:45:09] [ApplyScene] [√] 匹配成功: explorer | "桌面" -> 移动至 {X=1280,Y=0,Width=1280,Height=700}
+[19:45:09] [ApplyScene] [?] 窗口未找到，尝试自动化拉起: Weixin | 路径: C:\Program Files\Tencent\Weixin\Weixin.exe
+[19:45:09] [ApplyScene] [√] 匹配成功: msedge | "抖音-记录美好生活 - 个人 - Microsoft​ Edge" -> 移动至 {X=0,Y=0,Width=1280,Height=700}
+[19:45:09] [ApplyScene] <<< 恢复任务发送完毕，直接命中数: 3
+[19:45:09] [Filter-Done] 窗口列表变动，识别到参与排版的独立窗口数量: 4
+[19:45:09]   - HWND:6816874 | Proc:Weixin | Title:"微信"
+[19:45:09]   - HWND:461336 | Proc:Antigravity | Title:"F:\桌面\开发\WindowLayout.log-开发#quicker [管理员]"
+[19:45:09]   - HWND:722580 | Proc:explorer | Title:"桌面"
+[19:45:09]   - HWND:8193050 | Proc:msedge | Title:"抖音-记录美好生活 - 个人 - Microsoft​ Edge"
+[19:45:09] [ApplyScene-Async] [√] 延迟归位成功: Weixin
+[19:45:47] ==================================================
+[19:45:47] >>> 开发者模式已识别：日志模块启动
+[19:45:47] >>> 算法进化：响应式动态填坑算法 V4 (True Gap-Filler)
+[19:45:47] [Filter-Done] 窗口列表变动，识别到参与排版的独立窗口数量: 4
+[19:45:47]   - HWND:1115616 | Proc:notepad | Title:"智能窗口布局_20260103_164654 - 记事本"
+[19:45:47]   - HWND:722580 | Proc:explorer | Title:"桌面"
+[19:45:47]   - HWND:461336 | Proc:Antigravity | Title:"F:\桌面\开发\WindowLayout.log-开发#quicker [管理员]"
+[19:45:47]   - HWND:8193050 | Proc:msedge | Title:"抖音-记录美好生活 - 个人 - Microsoft​ Edge"
+[19:45:47] [Filter-Done] 识别到参与排版的独立窗口数量: 4
+[19:45:47] [Layout-V4] 锁定剔除完成，可用坑位: 1 | 待填入: 4
+[19:45:53] ==================================================
+[19:45:53] >>> 开发者模式已识别：日志模块启动
+[19:45:53] >>> 算法进化：响应式动态填坑算法 V4 (True Gap-Filler)
+[19:45:53] >>> 触发已有实例热刷新
+[19:45:53] [Filter-Done] 窗口列表变动，识别到参与排版的独立窗口数量: 4
+[19:45:53]   - HWND:722580 | Proc:explorer | Title:"桌面"
+[19:45:53]   - HWND:1115616 | Proc:notepad | Title:"智能窗口布局_20260103_164654 - 记事本"
+[19:45:53]   - HWND:461336 | Proc:Antigravity | Title:"F:\桌面\开发\WindowLayout.log-开发#quicker [管理员]"
+[19:45:53]   - HWND:8193050 | Proc:msedge | Title:"抖音-记录美好生活 - 个人 - Microsoft​ Edge"
+[19:45:54] ==================================================
+[19:45:54] >>> 开发者模式已识别：日志模块启动
+[19:45:54] >>> 算法进化：响应式动态填坑算法 V4 (True Gap-Filler)
+[19:45:54] >>> 触发已有实例热刷新
+[19:45:55] ==================================================
+[19:45:55] >>> 开发者模式已识别：日志模块启动
+[19:45:55] >>> 算法进化：响应式动态填坑算法 V4 (True Gap-Filler)
+[19:45:55] >>> 触发已有实例热刷新
+[19:45:57] [SaveScene] >>> 开始执行快照保存: 01-03 194557 布局
+[19:45:57] [SaveScene-Debug] 资源管理器路径抓取: 桌面 -> F:\桌面
+[19:45:57] [SaveScene-Debug] 浏览器 URL 抓取: 抖音-记录美好生活 - 个人 - Microsoft​ Edge -> https://www.douyin.com/?recommend=1
+[19:45:57] [SaveScene] 场景文件已保存至磁盘: 5 个历史场景
+[19:45:57]   - 记录: explorer | T:"桌面" | P:"C:\Windows\explorer.exe" | Url:"F:\桌面"
+[19:45:57]   - 记录: notepad | T:"智能窗口布局_20260103_164654 - 记事本" | P:"C:\Windows\system32\NOTEPAD.EXE" | Url:""
+[19:45:57]   - 记录: Antigravity | T:"F:\桌面\开发\WindowLayout.log-开发#quicker [管理员]" | P:"C:\Users\Administrator\AppData\Local\Programs\Antigravity\Antigravity.exe" | Url:""
+[19:45:57]   - 记录: msedge | T:"抖音-记录美好生活 - 个人 - Microsoft​ Edge" | P:"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" | Url:"https://www.douyin.com/?recommend=1"
+[19:46:01] [ApplyScene] >>> 开始恢复场景: 01-03 194557 布局 (包含记录: 4 个)
+[19:46:01] [Filter-Done] 窗口列表变动，识别到参与排版的独立窗口数量: 3
+[19:46:01]   - HWND:722580 | Proc:explorer | Title:"桌面"
+[19:46:01]   - HWND:461336 | Proc:Antigravity | Title:"F:\桌面\开发\WindowLayout.log-开发#quicker [管理员]"
+[19:46:01]   - HWND:8193050 | Proc:msedge | Title:"抖音-记录美好生活 - 个人 - Microsoft​ Edge"
+[19:46:01] [ApplyScene] --- 当前布局实况 (恢复前) ---
+[19:46:01]   - explorer | Pos: 0,700,1280x700 | Title: "桌面"
+[19:46:01]   - Antigravity | Pos: 1280,700,1280x700 | Title: "F:\桌面\开发\WindowLayout.log-开发#quicker [管理员]"
+[19:46:01]   - msedge | Pos: 0,0,1280x700 | Title: "抖音-记录美好生活 - 个人 - Microsoft​ Edge"
+[19:46:01] [ApplyScene] 当前系统范围内待匹配窗口总数: 3
+[19:46:01] [ApplyScene] [√] 匹配成功: explorer | "桌面" -> 移动至 {X=0,Y=700,Width=1280,Height=700}
+[19:46:01] [ApplyScene] [?] 窗口未找到，尝试自动化拉起: notepad | 路径: C:\Windows\system32\NOTEPAD.EXE
+[19:46:01] [ApplyScene] [√] 匹配成功: Antigravity | "F:\桌面\开发\WindowLayout.log-开发#quicker [管理员]" -> 移动至 {X=1280,Y=700,Width=1280,Height=700}
+[19:46:01] [ApplyScene] [√] 匹配成功: msedge | "抖音-记录美好生活 - 个人 - Microsoft​ Edge" -> 移动至 {X=0,Y=0,Width=1280,Height=700}
+[19:46:01] [ApplyScene] <<< 恢复任务发送完毕，直接命中数: 3
+[19:46:02] [Filter-Done] 窗口列表变动，识别到参与排版的独立窗口数量: 4
+[19:46:02]   - HWND:723104 | Proc:notepad | Title:"无标题 - 记事本"
+[19:46:02]   - HWND:722580 | Proc:explorer | Title:"桌面"
+[19:46:02]   - HWND:461336 | Proc:Antigravity | Title:"F:\桌面\开发\WindowLayout.log-开发#quicker [管理员]"
+[19:46:02]   - HWND:8193050 | Proc:msedge | Title:"抖音-记录美好生活 - 个人 - Microsoft​ Edge"
+[19:46:02] [ApplyScene-Async] [√] 延迟归位成功: notepad
+[19:46:05] [ApplyScene] >>> 开始恢复场景: 01-03 194557 布局 (包含记录: 4 个)
+[19:46:05] [Filter-Done] 窗口列表变动，识别到参与排版的独立窗口数量: 2
+[19:46:05]   - HWND:461336 | Proc:Antigravity | Title:"F:\桌面\开发\WindowLayout.log-开发#quicker [管理员]"
+[19:46:05]   - HWND:8193050 | Proc:msedge | Title:"抖音-记录美好生活 - 个人 - Microsoft​ Edge"
+[19:46:05] [ApplyScene] --- 当前布局实况 (恢复前) ---
+[19:46:05]   - Antigravity | Pos: 1280,700,1280x700 | Title: "F:\桌面\开发\WindowLayout.log-开发#quicker [管理员]"
+[19:46:05]   - msedge | Pos: 0,0,1280x700 | Title: "抖音-记录美好生活 - 个人 - Microsoft​ Edge"
+[19:46:05] [ApplyScene] 当前系统范围内待匹配窗口总数: 2
+[19:46:05] [ApplyScene] [?] 窗口未找到，尝试自动化拉起: explorer | 路径: C:\Windows\explorer.exe
+[19:46:05] [ApplyScene] [?] 窗口未找到，尝试自动化拉起: notepad | 路径: C:\Windows\system32\NOTEPAD.EXE
+[19:46:05] [ApplyScene] [√] 匹配成功: Antigravity | "F:\桌面\开发\WindowLayout.log-开发#quicker [管理员]" -> 移动至 {X=1280,Y=700,Width=1280,Height=700}
+[19:46:06] [ApplyScene] [√] 匹配成功: msedge | "抖音-记录美好生活 - 个人 - Microsoft​ Edge" -> 移动至 {X=0,Y=0,Width=1280,Height=700}
+[19:46:06] [ApplyScene] <<< 恢复任务发送完毕，直接命中数: 2
+[19:46:06] [Filter-Done] 窗口列表变动，识别到参与排版的独立窗口数量: 4
+[19:46:06]   - HWND:45943038 | Proc:explorer | Title:"桌面"
+[19:46:06]   - HWND:525362 | Proc:notepad | Title:"无标题 - 记事本"
+[19:46:06]   - HWND:461336 | Proc:Antigravity | Title:"F:\桌面\开发\WindowLayout.log-开发#quicker [管理员]"
+[19:46:06]   - HWND:8193050 | Proc:msedge | Title:"抖音-记录美好生活 - 个人 - Microsoft​ Edge"
+[19:46:06] [ApplyScene-Async] [√] 延迟归位成功: notepad
+[19:46:06] [ApplyScene-Async] [√] 延迟归位成功: explorer
+[19:47:33] ==================================================
+[19:47:33] >>> 开发者模式已识别：日志模块启动
+[19:47:33] >>> 算法进化：响应式动态填坑算法 V4 (True Gap-Filler)
+[19:47:33] >>> 触发已有实例热刷新
+[19:47:33] [Filter-Done] 窗口列表变动，识别到参与排版的独立窗口数量: 3
+[19:47:33]   - HWND:8193050 | Proc:msedge | Title:"抖音-记录美好生活 - 个人 - Microsoft​ Edge"
+[19:47:33]   - HWND:45943038 | Proc:explorer | Title:"桌面"
+[19:47:33]   - HWND:461336 | Proc:Antigravity | Title:"F:\桌面\开发\WindowLayout.log-开发#quicker [管理员]"
+[19:47:34] [Layout-V4] 锁定剔除完成，可用坑位: 1 | 待填入: 3
+[19:47:36] ==================================================
+[19:47:36] >>> 开发者模式已识别：日志模块启动
+[19:47:36] >>> 算法进化：响应式动态填坑算法 V4 (True Gap-Filler)
+[19:47:36] >>> 触发已有实例热刷新
+[19:47:37] ==================================================
+[19:47:37] >>> 开发者模式已识别：日志模块启动
+[19:47:37] >>> 算法进化：响应式动态填坑算法 V4 (True Gap-Filler)
+[19:47:37] >>> 触发已有实例热刷新
+[19:47:39] ==================================================
+[19:47:39] >>> 开发者模式已识别：日志模块启动
+[19:47:39] >>> 算法进化：响应式动态填坑算法 V4 (True Gap-Filler)
+[19:47:39] >>> 触发已有实例热刷新
+[19:47:40] ==================================================
+[19:47:40] >>> 开发者模式已识别：日志模块启动
+[19:47:40] >>> 算法进化：响应式动态填坑算法 V4 (True Gap-Filler)
+[19:47:40] >>> 触发已有实例热刷新
+[19:47:41] ==================================================
+[19:47:41] >>> 开发者模式已识别：日志模块启动
+[19:47:41] >>> 算法进化：响应式动态填坑算法 V4 (True Gap-Filler)
+[19:47:41] >>> 触发已有实例热刷新
+[19:51:54] ==================================================
+[19:51:54] >>> 开发者模式已识别：日志模块启动
+[19:51:54] >>> 算法进化：响应式动态填坑算法 V4 (True Gap-Filler)
+[19:51:54] [Filter-Done] 窗口列表变动，识别到参与排版的独立窗口数量: 3
+[19:51:54]   - HWND:461336 | Proc:Antigravity | Title:"F:\桌面\开发\WindowLayout.log-开发#quicker [管理员]"
+[19:51:54]   - HWND:8193050 | Proc:msedge | Title:"抖音-记录美好生活 - 个人 - Microsoft​ Edge"
+[19:51:54]   - HWND:45943038 | Proc:explorer | Title:"桌面"
+[19:51:54] [Filter-Done] 识别到参与排版的独立窗口数量: 3
+[19:51:54] [Layout-V4] 锁定剔除完成，可用坑位: 1 | 待填入: 3
+[19:51:59] [Swap] 开始交换位置: Antigravity <-> msedge
+[19:51:59]   - 源窗口: {X=1280,Y=0,Width=1280,Height=1400}
+[19:51:59]   - 目标窗口: {X=0,Y=0,Width=1280,Height=700}
+[19:51:59] [Swap] 交换完成
+[19:52:03] [Swap] 开始交换位置: explorer <-> msedge
+[19:52:03]   - 源窗口: {X=0,Y=700,Width=1280,Height=700}
+[19:52:03]   - 目标窗口: {X=1280,Y=0,Width=1280,Height=1400}
+[19:52:04] [Swap] 交换完成
+[19:52:06] [Swap] 开始交换位置: msedge <-> explorer
+[19:52:06]   - 源窗口: {X=0,Y=700,Width=1280,Height=700}
+[19:52:06]   - 目标窗口: {X=1280,Y=0,Width=1280,Height=1400}
+[19:52:06] [Swap] 交换完成
+[19:52:09] [Swap] 开始交换位置: explorer <-> Antigravity
+[19:52:09]   - 源窗口: {X=0,Y=700,Width=1280,Height=700}
+[19:52:09]   - 目标窗口: {X=0,Y=0,Width=1280,Height=700}
+[19:52:09] [Swap] 交换完成
+[19:52:15] [Swap] 开始交换位置: Antigravity <-> msedge
+[19:52:15]   - 源窗口: {X=0,Y=700,Width=1280,Height=700}
+[19:52:15]   - 目标窗口: {X=1280,Y=0,Width=1280,Height=1400}
+[19:52:15] [Swap] 交换完成
+[19:52:19] [Swap] 开始交换位置: msedge <-> Antigravity
+[19:52:19]   - 源窗口: {X=0,Y=700,Width=1280,Height=700}
+[19:52:19]   - 目标窗口: {X=1280,Y=0,Width=1280,Height=1400}
+[19:52:19] [Swap] 交换完成
+[19:55:57] ==================================================
+[19:55:57] >>> 开发者模式已识别：日志模块启动
+[19:55:57] >>> 算法进化：响应式动态填坑算法 V4 (True Gap-Filler)
+[19:55:57] [Filter-Done] 窗口列表变动，识别到参与排版的独立窗口数量: 3
+[19:55:57]   - HWND:461336 | Proc:Antigravity | Title:"F:\桌面\开发\WindowLayout.log-开发#quicker [管理员]"
+[19:55:57]   - HWND:8193050 | Proc:msedge | Title:"抖音-记录美好生活 - 个人 - Microsoft​ Edge"
+[19:55:57]   - HWND:45943038 | Proc:explorer | Title:"桌面"
+[19:55:57] [Filter-Done] 识别到参与排版的独立窗口数量: 3
+[19:55:58] [Layout-V4] 锁定剔除完成，可用坑位: 1 | 待填入: 3
+[19:56:06] [Swap] 开始交换位置: explorer <-> Antigravity
+[19:56:06]   - 源窗口: {X=0,Y=700,Width=1280,Height=700}
+[19:56:06]   - 目标窗口: {X=1280,Y=0,Width=1280,Height=1400}
+[19:56:06] [Swap] 交换完成
+[19:57:27] ==================================================
+[19:57:27] >>> 开发者模式已识别：日志模块启动
+[19:57:27] >>> 算法进化：响应式动态填坑算法 V4 (True Gap-Filler)
+[19:57:27] [Filter-Done] 窗口列表变动，识别到参与排版的独立窗口数量: 3
+[19:57:27]   - HWND:461336 | Proc:Antigravity | Title:"F:\桌面\开发\WindowLayout.log-开发#quicker [管理员]"
+[19:57:27]   - HWND:45943038 | Proc:explorer | Title:"桌面"
+[19:57:27]   - HWND:8193050 | Proc:msedge | Title:"抖音-记录美好生活 - 个人 - Microsoft​ Edge"
+[19:57:27] [Filter-Done] 识别到参与排版的独立窗口数量: 3
+[19:57:28] ==================================================
+[19:57:28] >>> 开发者模式已识别：日志模块启动
+[19:57:28] >>> 算法进化：响应式动态填坑算法 V4 (True Gap-Filler)
+[19:57:29] >>> 触发已有实例热刷新
+[19:57:30] ==================================================
+[19:57:30] >>> 开发者模式已识别：日志模块启动
+[19:57:30] >>> 算法进化：响应式动态填坑算法 V4 (True Gap-Filler)
+[19:57:30] >>> 触发已有实例热刷新
+[21:14:53] ==================================================
+[21:14:53] >>> 开发者模式已识别：日志模块启动
+[21:14:53] >>> 算法进化：响应式动态填坑算法 V4 (True Gap-Filler)
+[21:14:53] [Filter-Done] 窗口列表变动，识别到参与排版的独立窗口数量: 4
+[21:14:53]   - HWND:852990 | Proc:msedge | Title:"Google Gemini - 个人 - Microsoft​ Edge"
+[21:14:53]   - HWND:8193050 | Proc:msedge | Title:"《即刻上场》第14集-在线观看全集最新未删减完整版-电视剧-Vidhub视频库 和另外 1 个页面 - 个人 - Microsoft​ Edge"
+[21:14:53]   - HWND:461336 | Proc:Antigravity | Title:"F:\桌面\开发\WindowLayout.log-开发#quicker [管理员]"
+[21:14:53]   - HWND:45943038 | Proc:explorer | Title:"桌面"
+[21:14:53] [Filter-Done] 识别到参与排版的独立窗口数量: 4
+[21:14:54] [Layout-V4] 锁定剔除完成，可用坑位: 1 | 待填入: 4
+[21:14:58] [Swap] 开始交换位置: msedge <-> Antigravity
+[21:14:58]   - 源窗口: {X=0,Y=700,Width=1280,Height=700}
+[21:14:58]   - 目标窗口: {X=1280,Y=0,Width=1280,Height=700}
+[21:14:59] [Swap] 交换完成
+[21:40:13] ==================================================
+[21:40:13] >>> 开发者模式已识别：日志模块启动
+[21:40:13] >>> 算法进化：响应式动态填坑算法 V4 (True Gap-Filler)
+[21:40:13] [Filter-Done] 窗口列表变动，识别到参与排版的独立窗口数量: 7
+[21:40:13]   - HWND:132686 | Proc:chrome | Title:"灵动窗口布局 - 海报 - Google Chrome"
+[21:40:13]   - HWND:8193050 | Proc:msedge | Title:"《即刻上场》第15集-在线观看全集最新未删减完整版-电视剧-Vidhub视频库 和另外 2 个页面 - 个人 - Microsoft​ Edge"
+[21:40:13]   - HWND:461336 | Proc:Antigravity | Title:"F:\桌面\开发\灵动窗口布局_海报.png-开发#quicker [管理员]"
+[21:40:13]   - HWND:852990 | Proc:msedge | Title:"即梦AI - 一站式AI创作平台 和另外 3 个页面 - 个人 - Microsoft​ Edge"
+[21:40:13]   - HWND:721848 | Proc:explorer | Title:"下载"
+[21:40:13]   - HWND:15271372 | Proc:explorer | Title:"be152c8a-17e1-4107-bae5-dcd056646a41"
+[21:40:13]   - HWND:1049650 | Proc:explorer | Title:"桌面"
+[21:40:13] [Filter-Done] 识别到参与排版的独立窗口数量: 7
+[21:40:14] [Layout-V4] 锁定剔除完成，可用坑位: 1 | 待填入: 7
+[21:40:23] ==================================================
+[21:40:23] >>> 开发者模式已识别：日志模块启动
+[21:40:23] >>> 算法进化：响应式动态填坑算法 V4 (True Gap-Filler)
+[21:40:23] >>> 触发已有实例热刷新
+[21:40:23] [Filter-Done] 窗口列表变动，识别到参与排版的独立窗口数量: 6
+[21:40:23]   - HWND:132686 | Proc:chrome | Title:"灵动窗口布局 - 海报 - Google Chrome"
+[21:40:23]   - HWND:8193050 | Proc:msedge | Title:"《即刻上场》第15集-在线观看全集最新未删减完整版-电视剧-Vidhub视频库 和另外 2 个页面 - 个人 - Microsoft​ Edge"
+[21:40:23]   - HWND:461336 | Proc:Antigravity | Title:"F:\桌面\开发\灵动窗口布局_海报.png-开发#quicker [管理员]"
+[21:40:23]   - HWND:852990 | Proc:msedge | Title:"即梦AI - 一站式AI创作平台 和另外 3 个页面 - 个人 - Microsoft​ Edge"
+[21:40:23]   - HWND:721848 | Proc:explorer | Title:"下载"
+[21:40:23]   - HWND:1049650 | Proc:explorer | Title:"桌面"
+[21:40:24] [Layout-V4] 锁定剔除完成，可用坑位: 1 | 待填入: 6
+[22:37:59] ==================================================
+[22:37:59] >>> 开发者模式已识别：日志模块启动
+[22:37:59] >>> 算法进化：响应式动态填坑算法 V4 (True Gap-Filler)
+[22:37:59] [Filter-Done] 窗口列表变动，识别到参与排版的独立窗口数量: 7
+[22:37:59]   - HWND:8193050 | Proc:msedge | Title:"抖音-记录美好生活 和另外 6 个页面 - 个人 - Microsoft​ Edge"
+[22:37:59]   - HWND:461336 | Proc:Antigravity | Title:"F:\桌面\开发\WindowLayoutSite\index.html-开发#quicker [管理员]"
+[22:37:59]   - HWND:1574028 | Proc:explorer | Title:"开发"
+[22:37:59]   - HWND:1049650 | Proc:explorer | Title:"桌面"
+[22:37:59]   - HWND:132686 | Proc:chrome | Title:"智能窗口布局 - by 洛洛罗 - 动作信息 - Quicker - Google Chrome"
+[22:37:59]   - HWND:852990 | Proc:msedge | Title:"Google AI Studio --- Google AI Studio 和另外 3 个页面 - 个人 - Microsoft​ Edge"
+[22:37:59]   - HWND:721848 | Proc:explorer | Title:"下载"
+[22:37:59] [Filter-Done] 识别到参与排版的独立窗口数量: 7
+[22:38:00] [Layout-V4] 锁定剔除完成，可用坑位: 1 | 待填入: 7
+[22:38:39] ==================================================
+[22:38:39] >>> 开发者模式已识别：日志模块启动
+[22:38:39] >>> 算法进化：响应式动态填坑算法 V4 (True Gap-Filler)
+[22:38:39] [Filter-Done] 窗口列表变动，识别到参与排版的独立窗口数量: 3
+[22:38:39]   - HWND:8193050 | Proc:msedge | Title:"抖音-记录美好生活 和另外 6 个页面 - 个人 - Microsoft​ Edge"
+[22:38:39]   - HWND:461336 | Proc:Antigravity | Title:"F:\桌面\开发\WindowLayoutSite\index.html-开发#quicker [管理员]"
+[22:38:39]   - HWND:852990 | Proc:msedge | Title:"Google AI Studio --- Google AI Studio 和另外 3 个页面 - 个人 - Microsoft​ Edge"
+[22:38:39] [Filter-Done] 识别到参与排版的独立窗口数量: 3
+[22:38:39] [Layout-V4] 锁定剔除完成，可用坑位: 1 | 待填入: 3
+[22:38:49] ==================================================
+[22:38:49] >>> 开发者模式已识别：日志模块启动
+[22:38:49] >>> 算法进化：响应式动态填坑算法 V4 (True Gap-Filler)
+[22:38:49] [Filter-Done] 窗口列表变动，识别到参与排版的独立窗口数量: 4
+[22:38:49]   - HWND:11405382 | Proc:Quicker | Title:"Quicker搜索"
+[22:38:49]   - HWND:8193050 | Proc:msedge | Title:"抖音-记录美好生活 和另外 6 个页面 - 个人 - Microsoft​ Edge"
+[22:38:49]   - HWND:461336 | Proc:Antigravity | Title:"F:\桌面\开发\WindowLayoutSite\index.html-开发#quicker [管理员]"
+[22:38:49]   - HWND:852990 | Proc:msedge | Title:"Google AI Studio --- Google AI Studio 和另外 3 个页面 - 个人 - Microsoft​ Edge"
+[22:38:49] [Filter-Done] 识别到参与排版的独立窗口数量: 4
+[22:38:50] [Layout-V4] 锁定剔除完成，可用坑位: 1 | 待填入: 4
+[22:38:51] ==================================================
+[22:38:51] >>> 开发者模式已识别：日志模块启动
+[22:38:51] >>> 算法进化：响应式动态填坑算法 V4 (True Gap-Filler)
+[22:38:51] [Filter-Done] 窗口列表变动，识别到参与排版的独立窗口数量: 3
+[22:38:51]   - HWND:8193050 | Proc:msedge | Title:"抖音-记录美好生活 和另外 6 个页面 - 个人 - Microsoft​ Edge"
+[22:38:51]   - HWND:461336 | Proc:Antigravity | Title:"F:\桌面\开发\WindowLayoutSite\index.html-开发#quicker [管理员]"
+[22:38:51]   - HWND:852990 | Proc:msedge | Title:"Google AI Studio --- Google AI Studio 和另外 3 个页面 - 个人 - Microsoft​ Edge"
+[22:38:51] [Filter-Done] 识别到参与排版的独立窗口数量: 3
+[22:38:51] [Layout-V4] 锁定剔除完成，可用坑位: 1 | 待填入: 3

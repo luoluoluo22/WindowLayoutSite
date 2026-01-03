@@ -1,0 +1,50 @@
+﻿{
+  "ActionId": "06b092f2-9672-4ca5-820e-36512d29c437",
+  "Title": "智能窗口布局",
+  "Description": "自动整理桌面窗口布局，支持1-N个窗口的智能排列。采用Z型优先级填充策略，左侧VIP席位+右侧网格布局。",
+  "Icon": "fa:Solid_ThLarge:#4A90D9",
+  "Variables": [
+    {
+      "Type": 0,
+      "Desc": "结果文本(自动)",
+      "IsOutput": false,
+      "Key": "text"
+    },
+    {
+      "Type": 0,
+      "Desc": "返回值(自动)",
+      "IsOutput": false,
+      "Key": "rtn"
+    },
+    {
+      "Type": 0,
+      "Desc": "错误信息(自动)",
+      "IsOutput": false,
+      "Key": "errMessage"
+    },
+    {
+      "Type": 2,
+      "Desc": "静默启动",
+      "DefaultValue": "true",
+      "IsInput": false,
+      "Key": "silent"
+    },
+    {
+      "Type": 2,
+      "Desc": "刷新后退出",
+      "DefaultValue": "false",
+      "IsInput": true,
+      "SaveState": true,
+      "Key": "instantMode"
+    },
+    {
+      "Type": 1,
+      "Desc": "自动退出时长(秒)",
+      "DefaultValue": "0",
+      "IsInput": true,
+      "SaveState": true,
+      "Key": "autoExitSeconds"
+    }
+  ],
+  "References": []
+}
